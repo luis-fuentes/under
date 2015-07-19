@@ -1,0 +1,23 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/YotaCL/webpack-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate"
+  ],
+  "author": "Luis Fuentes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YotaCL/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/YotaCL/webpack-boilerplate#readme"
+}
