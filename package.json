@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
     "build": "TARGET=build webpack",
     "start": "TARGET=dev webpack-dev-server --devtool eval-source --progress --colors --hot"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/YotaCL/webpack-boilerplate.git"
+    "url": "git+ssh://git@github.com/YotaCL/react-boilerplate.git"
   },
   "keywords": [
     "webpack",
@@ -23,7 +24,10 @@
   },
   "homepage": "https://github.com/YotaCL/webpack-boilerplate#readme",
   "devDependencies": {
+    "babel-eslint": "^3.1.26",
     "css-loader": "^0.15.1",
+    "eslint": "^0.24.1",
+    "eslint-plugin-react": "^3.0.0",
     "html-webpack-plugin": "^1.5.2",
     "node-libs-browser": "^0.5.2",
     "style-loader": "^0.12.3",
