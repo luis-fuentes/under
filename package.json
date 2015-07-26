@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
     "build": "TARGET=build webpack",
-    "start": "TARGET=dev webpack-dev-server --devtool eval-source --progress --colors --hot"
+    "start": "TARGET=dev webpack-dev-server --progress --colors --hot --inline --history-api-fallback"
   },
   "repository": {
     "type": "git",
@@ -24,15 +24,21 @@
   },
   "homepage": "https://github.com/YotaCL/webpack-boilerplate#readme",
   "devDependencies": {
+    "babel-core": "^5.8.5",
     "babel-eslint": "^3.1.26",
+    "babel-loader": "^5.3.2",
     "css-loader": "^0.15.1",
     "eslint": "^0.24.1",
     "eslint-plugin-react": "^3.0.0",
     "html-webpack-plugin": "^1.5.2",
     "node-libs-browser": "^0.5.2",
+    "react-hot-loader": "^1.2.8",
     "style-loader": "^0.12.3",
-    "webpack": "^1.10.1",
+    "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1",
     "webpack-merge": "^0.1.2"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
   }
 }
